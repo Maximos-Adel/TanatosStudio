@@ -39,7 +39,12 @@ $(function () {
   // Show Hidden Items From Work
 
   $(".show-more").click(function () {
-    $(".our-work .hidden").fadeIn(1000);
+    $(".our-work .hidden").toggle();
+    if ($(this).text() == "show less") {
+      $(this).text("show more");
+    } else {
+      $(this).text("show less");
+    }
   });
 
   // Check Testimonials
