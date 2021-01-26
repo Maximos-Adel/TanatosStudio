@@ -1,2 +1,2 @@
-# Third-Project
- My Third Project using HTML & CSS & jQuery
+# TanatosStudio
+Landing Page using HTML, CSS and jQuery
